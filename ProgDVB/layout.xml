@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch" color="#6E6E6E">
+  <grid>
+    <row weight="wrap">
+      <button icon="power" onTap="power" />
+      <button icon="vmute" onTap="vmute" />
+    </row>
+    <row weight="wrap">
+      <button icon="vdown" onTap="vdown" />
+      <button icon="vup" onTap="vup" />
+    </row>
+    <row weight="wrap">
+      <button text="EPG" onTap="epg" />
+      <button text="INFO" onTap="info" />
+    </row>
+    <row>
+      <button text="MENU" onTap="menu" />
+      <button icon="up"  onTap="pch" />
+      <button text="EXIT" onTap="exit" />
+    </row>
+    <row>
+      <button icon="left"  onTap="left" />
+      <button text="OK"    onTap="ok" />
+      <button icon="right" onTap="right" />
+    </row>
+    <row>
+      <button icon="zoomnormal" onTap="zoom" />
+      <button icon="down" onTap="nch" />
+      <button icon="fullscreen" onTap="fullscreen" />
+    </row>
+    <row weight="wrap">
+      <button text="PgUp" onTap="pgup" />
+      <button text="PIP" onTap="pip" />
+      <button text="no PIP" onTap="nopip" />
+    </row>
+    <row weight="wrap">
+      <button text="PgDn" onTap="pgdn" />
+      <button text="Ratio" onTap="ratio" />
+      <button text="Letter Box" onTap="lbox" />
+    </row>
+    <row weight="wrap">
+      <button icon="play" onTap="play" />
+      <button icon="pause" onTap="stop" />
+      <button icon="rwd" onTap="rwd" />
+      <button icon="ff" onTap="ff" />
+      <button icon="record" onTap="record" />
+    </row>
+  </grid>
+</layout>
